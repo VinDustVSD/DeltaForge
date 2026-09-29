@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="VinDust.SharpVfs.Abstractions" Version="1.0.0" />
+    <PackageReference Include="VinDust.SharpVfs.Composition" Version="1.0.0" />
+    <PackageReference Include="VinDust.SharpVfs.Core" Version="1.0.0" />
+    <PackageReference Include="VinDust.SharpVfs.FileSystems.Memory" Version="1.0.0" />
+    <PackageReference Include="VinDust.SharpVfs.FileSystems.Physical" Version="1.0.0" />
+    <PackageReference Include="VinDust.SharpVfs.FileSystems.Zip" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
